@@ -4,11 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <title>Warsztat 4 - frontend do bakendu</title>
-<!--  <link rel="stylesheet" href="css/style.css">-->
+  <!--  <link rel="stylesheet" href="css/style.css">-->
 </head>
 
 <body>
+
+  <h1>Book Frontend</h1>
+  <form method="post" id="addBook">
+    <div>
+      Title: <input type="text" name="title" />
+    </div>
+    <div>
+      Author: <input type="text" name="author" />
+    </div>
+    <div>
+      <input type="submit" />
+    </div>
+  </form>
+  <div id="book-list"></div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/app.js"></script>
 </body>
+
 </html>
